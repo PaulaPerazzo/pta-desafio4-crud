@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { User } from '@models/User';
-import { Citi, Crud } from '../global'
+import { Citi, Crud } from '../global';
 
 export default class UserController implements Crud {
 
