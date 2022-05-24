@@ -19,7 +19,7 @@ routes.get('/student', studentController.get);
 
 routes.post('/school', schoolController.create);
 routes.get('/school', schoolController.get);
-routes.delete('school/:id', schoolController.delete);
-routes.put('school/:id', schoolController.update);
+routes.delete('/school/:id', schoolController.delete);
+routes.put('/school/:id', schoolController.update);
 
 export default routes;
